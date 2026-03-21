@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState('Loading...')
 
   useEffect(() => {
-      fetch(`${process.env.REACT_APP_API_URL}/api/hello/`)
+    fetch('https://django-backend-azvm.onrender.com/api/hello/')
       .then(res => res.json())
       .then(data => setMessage(data.message))
       .catch(() => setMessage('Failed to connect to backend ❌'))
