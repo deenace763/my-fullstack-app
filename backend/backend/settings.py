@@ -128,7 +128,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
+    "https://your-project-name.vercel.app"
     "http://localhost:3000",
     "http://localhost:5173",
 ]
+
 CORS_ALLOW_ALL_ORIGINS = True
