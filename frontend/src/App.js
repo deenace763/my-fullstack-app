@@ -25,7 +25,7 @@ function App() {
 
       {/* Hero Section */}
       <main style={styles.hero}>
-        <h2 style={styles.heroTitle}>Welcome to MyApp, Samikshya ❤️😘</h2>
+        <h2 style={styles.heroTitle}>Welcome to MyApp </h2>
         <p style={styles.heroSub}>{message}</p>
         <button style={styles.button}>Get Started</button>
       </main>
