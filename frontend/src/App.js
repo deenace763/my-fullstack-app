@@ -25,7 +25,9 @@ function App() {
 
       {/* Hero Section */}
       <main style={styles.hero}>
-        <h2 style={styles.heroTitle}>Welcome to MyApp </h2>
+        <h2 style={styles.heroTitle}> Hello Welcome to the class 8 result section </h2>
+        <h2 style={styles.heroTitle}> Aarya Century : 4.0 GPA : Position First </h2>
+        
         <p style={styles.heroSub}>{message}</p>
         <button style={styles.button}>Get Started</button>
       </main>
